@@ -1,0 +1,72 @@
+[
+  {
+    "image": "https://i.pinimg.com/1200x/61/31/80/6131808b2e8cb202a2ceb1a7f9a8de8d.jpg",
+    "name": "Lace Shirt Cut II",
+    "price": 16,
+    "category": "bag",
+    "color": "pink"
+  },
+  {
+    "image": "https://i.pinimg.com/1200x/45/d1/2d/45d12d9ab5b0d35786e3f84c90137e98.jpg",
+    "name": "Classic Sweatshirt",
+    "price": 22,
+    "category": "sweater",
+    "color": "brown"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/75/cc/f7/75ccf749f56f008061fe4d504cf54c22.jpg",
+    "name": "Essential Hoodie",
+    "price": 35,
+    "category": "bag",
+    "color": "white"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/38/76/8d/38768d8e96657e83970bdab2e37dc3e4.jpg",
+    "name": "Minimalist Jacket",
+    "price": 50,
+    "category": "jacket",
+    "color": "dark brown"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/e6/9b/bf/e69bbfe24f3f7b0c4208916c4edc63a4.jpg",
+    "name": "Overcoat Tan",
+    "price": 85,
+    "category": "skirt",
+    "color": "brown"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/e1/3f/38/e13f387f22d1801101cdd9e94cd8935c.jpg",
+    "name": "Urban Tee",
+    "price": 12,
+    "category": "hat",
+    "color": "blue"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/75/98/90/759890bd3f5f5eb0b3fe9ba994962326.jpg",
+    "name": "Wool Cardigan",
+    "price": 45,
+    "category": "jeans",
+    "color": "gray"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/ff/27/79/ff2779ac83c546222e21a4e22e0a778b.jpg",
+    "name": "Basic Polo",
+    "price": 28,
+    "category": "shorts",
+    "color": "white"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/91/68/06/91680678f4a22f90dedf60979ca63dbe.jpg",
+    "name": "Premium Knit",
+    "price": 60,
+    "category": "hoodie",
+    "color": "beige"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/8d/7d/62/8d7d62854066176ddadde24dcda3a1df.jpg",
+    "name": "Cotton Blazer",
+    "price": 110,
+    "category": "sweater",
+    "color": "blue"
+  }
+]

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guza - Premium Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Guza</div>
+      <nav class="nav-links">
+        <a href="#">Home</a><a href="#" class="active">Shop</a
+        ><a href="#">Products</a><a href="#">Pages</a><a href="#">Blog</a>
+      </nav>
+      <div class="nav-icons">
+        <span class="icon"
+          ><img
+            style="width: 25px"
+            src="https://i.pinimg.com/736x/79/ce/10/79ce10e4c34077215b988139aec41dbe.jpg"
+            alt="" /></span
+        ><span class="icon"
+          ><img
+            style="width: 35px"
+            src="https://i.pinimg.com/736x/65/72/70/657270897891ca18ec31fe0d9a1d06b9.jpg"
+            alt=""
+        /></span>
+        <span class="cart-icon"
+          ><img
+            style="width: 45px"
+            src="https://i.pinimg.com/1200x/cb/c5/24/cbc52492c8a9b9e707e0bb67b6363dda.jpg"
+            alt=""
+        /></span>
+      </div>
+    </header>
+
+    <section class="shop-hero"><p></p></section>
+
+    <div class="main-container">
+      <nav class="horizontal-filter">
+        <div class="filter-group">
+          <span class="filter-label">Categories:</span>
+          <ul class="main-filters">
+            <li class="filter-chip">
+              <input type="checkbox" id="womens" />
+              <label for="womens">Womens <span class="count">12</span></label>
+            </li>
+            <li class="filter-chip active">
+              <input type="checkbox" id="mens" checked />
+              <label for="mens">Mens <span class="count">9</span></label>
+            </li>
+            <li class="filter-chip">
+              <input type="checkbox" id="kids" />
+              <label for="kids">Kids <span class="count">15</span></label>
+            </li>
+          </ul>
+        </div>
+
+        <select name="" id="">
+          <option value="Lace Shirt Cut II">Lace Shirt Cut II</option>
+          <option value="Classic Sweatshirt">Classic Sweatshirt</option>
+          <option value="Essential Hoodie">Essential Hoodie</option>
+          <option value="Minimalist Jacket">Minimalist Jacket</option>
+          <option value="Overcoat Tan">Overcoat Tan</option>
+          <option value="Urban Tee">Urban Tee</option>
+          <option value="Wool Cardigan">Wool Cardigan</option>
+          <option value="Basic Polo">Basic Polo</option>
+          <option value="Premium Knit">Premium Knit</option>
+          <option value="Cotton Blazer">Cotton Blazer</option>
+        </select>
+
+        <div class="sub-filter-bar">
+          <ul class="sub-filters">
+            <li class="sub-chip">
+              <input type="checkbox" id="hats" />
+              <label for="hats">Hats <span class="count">4</span></label>
+            </li>
+            <li class="sub-chip active">
+              <input type="checkbox" id="glasses" checked />
+              <label for="glasses">Glasses <span class="count">3</span></label>
+            </li>
+            <li class="sub-chip">
+              <input type="checkbox" id="jeans" />
+              <label for="jeans">Jeans <span class="count">2</span></label>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="content">
+        <div class="product-grid"></div>
+      </main>
+    </div>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-brand-section">
+          <div class="logo">Guza</div>
+          <p class="footer-tagline">
+            Elevating everyday essentials with a premium touch. Join our journey
+            for exclusive drops and style insights.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Shop</h4>
+            <ul>
+              <li><a href="#">Womens</a></li>
+              <li><a href="#">Mens</a></li>
+              <li><a href="#">Kids</a></li>
+              <li><a href="#">New Arrivals</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Affiliates</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom"></div>
+    </footer>
+
+    <div class="not"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
