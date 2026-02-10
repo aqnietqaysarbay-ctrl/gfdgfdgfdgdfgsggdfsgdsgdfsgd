@@ -68,5 +68,40 @@
     "price": 110,
     "category": "sweater",
     "color": "blue"
+  },
+  {
+    "image": "https://i.pinimg.com/1200x/02/94/72/0294728095030b247b660721a0ac2ec5.jpg",
+    "name": "Bear Hat",
+    "price": 60,
+    "category": "accessories",
+    "color": "brown"
+  },
+  {
+    "image": "https://i.pinimg.com/1200x/b9/83/d0/b983d00cbba90213edc5517bee888c1e.jpg",
+    "name": "Overcoat Tan",
+    "price": 30,
+    "category": "skirt",
+    "color": "gray"
+  },
+  {
+    "image": "https://i.pinimg.com/1200x/d7/bb/8d/d7bb8d4bf77fc8d9a450c676f994ddf0.jpg",
+    "name": "Yellow Sneakers",
+    "price": 150,
+    "category": "shoes",
+    "color": "yellow"
+  },
+  {
+    "image": "https://i.pinimg.com/736x/7f/9e/21/7f9e21d98f36561745dc91519cb80779.jpg",
+    "name": "Pink Shorts",
+    "price": 90,
+    "category": "shorts",
+    "color": "pink"
+  },
+  {
+    "image": "https://i.pinimg.com/1200x/1f/d0/76/1fd0765c8fd7479911616ce2db4ccc49.jpg",
+    "name": "Graphic Jacket",
+    "price": 180,
+    "category": "jacket",
+    "color": "beige"
   }
 ]
