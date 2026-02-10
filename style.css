@@ -707,3 +707,85 @@ body {
 .show {
   display: block;
 }
+/* ===== TABLET (<=1024px) ===== */
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .shop-hero {
+    height: 500px;
+    background-size: cover;
+  }
+
+  .navbar {
+    padding: 20px 4%;
+  }
+}
+
+/* ===== MOBILE (<=768px) ===== */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .shop-hero {
+    height: 300px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 15px;
+  }
+
+  .horizontal-filter {
+    overflow-x: auto;
+  }
+
+  .filter-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
+  }
+}
+
+/* ===== SMALL MOBILE (<=480px) ===== */
+@media (max-width: 480px) {
+  .logo {
+    font-size: 22px;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-title {
+    font-size: 28px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+
+  .add-to-cart {
+    padding: 10px 20px;
+  }
+}
